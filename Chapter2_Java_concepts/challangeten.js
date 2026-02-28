@@ -65,7 +65,7 @@ for (let i = 0; i < testCases.length; i++) {
     } catch (err) {
         errorCount++;
         results.push(false);
-        console.log(`⚠️ TC-0${i+1}: ERROR - ${err.message}`);
+        console.log(`TC-0${i+1}: ERROR - ${err.message}`);
     }
 }
 
